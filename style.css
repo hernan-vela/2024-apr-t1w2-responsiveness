@@ -1,10 +1,25 @@
 /* Default styles for small screens and anything not caught by media */
-body{
-    background-color: rgb(31, 109, 235);
+body {
+  background-color: rgb(31, 109, 235);
+}
+
+.column {
+    width: 100%;
 }
 /* Styled for screen 600px wide and larger */
 @media screen and (width > 600px) {
-    body{
-        background-color: palegreen;
-    }
+  body {
+    background-color: palegreen;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
