@@ -1,10 +1,9 @@
-/* Default style for smll screens and anything not caught by media */
+/* Default styles for small screens and anything not caught by media */
 body{
-    background-color: rgb(152, 226, 251);
+    background-color: rgb(31, 109, 235);
 }
-/* Styled for screens 600px wide and larger */
-@media screen and (min-width: 600px) {
-    
+/* Styled for screen 600px wide and larger */
+@media screen and (width > 600px) {
     body{
         background-color: palegreen;
     }
