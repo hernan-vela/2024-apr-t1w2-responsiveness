@@ -1,12 +1,12 @@
 /* Default styles for small screens and anything not caught by media */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@300&display=swap');
 body {
-  background-color: rgb(123, 190, 245);
+  background-color: rgb(98, 180, 247);
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif ;
 }
 
-header{
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,24 +20,24 @@ header{
   border-radius: 20%;
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
 }
-h1{ 
-  display: inline;
-  background-color:white;
+h1{
+  display:inline;
+  background-color: white;
 }
 
 
 /* .column {
-  width: 100%; 
+  width: 100%;
 } */
 /* Styled for screens 600px wide and larger */
 /* @media screen and (min-width: 600px) { */
 @media screen and (width > 600px) {
   body {
-    background-color: palegreen;   
+    background-color: palegreen;
   }
 
   header {
@@ -45,26 +45,26 @@ h1{
     justify-content: center;
     gap: 20px
   }
- 
-  main{
+
+  main {
     flex-direction: row;
     justify-content: space-around;
     gap: 1rem;
 
   }
 
-  .main_pa{
-  padding-left: 1rem;
+  .main_pa {
+    padding-left: 1rem;
   }
-  /* .column { 
+  /* .column {
     float: left;
     width: 33.33%;
   }*/
 
   /* Clear floats after the columns */
-  /* .row:after { 
+  /*.row:after {
     content: "";
     display: table;
     clear: both;
-  }*/
+  } */
 }
